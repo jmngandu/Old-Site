@@ -2,3 +2,16 @@ h1{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin-right: 20px;
+    
+}
+li{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
