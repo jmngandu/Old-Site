@@ -1,4 +1,4 @@
-h1{
+h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: white;
@@ -24,5 +24,9 @@ a:hover{
 }
 body{
     background-image: url(img/IMG-20230615-WA0000.jpg);
-    
+    color: white;
+}
+label.logo{
+    font-size: 35px;
+    padding: 10px;
 }
