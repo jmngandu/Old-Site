@@ -1,6 +1,8 @@
 h1{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding-top: 10px;
 }
 ul{
     display: flex;
@@ -14,4 +16,13 @@ li{
 }
 a{
     text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: white;
+    background-color: brown;
+}
+body{
+    background-image: url(img/IMG-20230615-WA0000.jpg);
+    
 }
