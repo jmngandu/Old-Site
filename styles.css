@@ -1,33 +1,55 @@
-h1 {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    padding-top: 10px;
-}
-ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: flex-end;
-    margin-right: 20px;
-    
-}
-li{
-    margin: 10px;
-}
-a{
-    text-decoration: none;
-    color: blue;
-}
-a:hover{
-    color: white;
-    background-color: brown;
-}
-body{
-    background-image: url(img/IMG-20230615-WA0000.jpg);
-    color: white;
-}
-label.logo{
-    font-size: 35px;
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply basic styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
     padding: 10px;
-    line-height: 80px;
-}
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
