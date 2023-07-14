@@ -1,9 +1,4 @@
-/* Reset some default browser styles */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
+
   /* Apply basic styles */
   body {
     font-family: Arial, sans-serif;
