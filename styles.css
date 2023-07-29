@@ -82,3 +82,15 @@ footer {
 .github-button:active {
   background-color: #1c1f21; 
 }
+.linkedin-button{
+  border-radius: 5px;
+  padding: 7px;
+  background-color: lightskyblue;
+  border: none;
+  font-size: 18px;
+  color:white
+}
+.linkedin-button:hover{
+  background-color: lightblue;
+  color: black;
+}
