@@ -2,7 +2,11 @@
 body, h1, h2, p, ul, li {
   margin: 0;
   padding: 0;
-}
+  }
+  
+  h1{
+    text-align: center;
+  }
 
 
 body {
@@ -23,6 +27,7 @@ nav {
 
 nav ul {
   list-style-type: none;
+  
 }
 
 nav ul li {
