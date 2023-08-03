@@ -12,6 +12,7 @@ body, h1, h2, p, ul, li {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background:radial-gradient( circle, red,yellow, green);
 }
 
 header {
@@ -23,6 +24,7 @@ nav {
   background-color: #333;
   color: #fff;
   padding: 10px;
+  
 }
 
 nav ul {
@@ -32,7 +34,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin-right: 10px;
+ 
 }
 
 nav ul li a {
@@ -98,4 +100,22 @@ footer {
 .linkedin-button:hover{
   background-color: lightblue;
   color: black;
+}
+.aboutw{
+  display: flex;
+  border: 1px solid black;
+  gap: 1rem;
+ align-items: center;
+}
+.art{
+  flex: 1;
+  background-color: ghostwhite;
+}
+.art:nth-child(2){
+  background-color: pink;
+  align-self: start;
+}
+.jimage{
+  
+
 }
