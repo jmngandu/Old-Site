@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    background:linear-gradient(to right,steelblue ,lightblue);
+}
+.navs{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right: 20px;
+    font-size: 30px;
+    }
+.lions{
+   list-style-type: none;
+   }
+   .buffallo{
+       border: 2px solid white;
+   }
