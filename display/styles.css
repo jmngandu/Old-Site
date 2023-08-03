@@ -115,7 +115,6 @@ footer {
   background-color: pink;
   align-self: start;
 }
-.jimage{
-  
-
+.key{
+  display: flex;
 }
