@@ -8,16 +8,28 @@ body{
     justify-content: flex-end;
     margin-right: 20px;
     font-size: 30px;
+    margin-top: -70px;
     }
 .lions{
    list-style-type: none;
    }
    .buffallo{
        border: 2px solid white;
-       
-    ;
+       background:radial-gradient(red,yellow,green);
+       margin-left: 40px;
+       margin-right: 40px;
+   }
+
+   .hyena{
+       display: flex;
+       margin-top: 5px;
    }
    .my-img{
       margin-left: 10px;
     }
+    .real-me{
+        border: 5px solid black;
+
+    }
+    .
   
