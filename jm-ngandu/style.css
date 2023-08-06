@@ -4,6 +4,9 @@
     box-sizing: border-box;
     list-style: none;
 }
+:root{
+    --color-primary: #191d2b;
+}
 body{
-    background-color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
