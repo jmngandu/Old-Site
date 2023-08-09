@@ -84,16 +84,27 @@ main{
     text-align: center;
 }
 .about-pic{
-    background-color: aquamarine;
-}.what-ilike{
-    background-color: cornflowerblue;
+    background-image: url(img/jem.jpg);
+    background-size: cover;
+    color: white;
+}
+.what-ilike{
+    background-image: url(img/jum.jpg);
+    color: whitesmoke;
+}
+.what-ilike:hover{
+    transform: translate(10px,5px);
 }
 .jmngandu{
-    border-radius: 40px;
+   
     width: 12rem;
     float: left;
-    padding: 0 1.5rem 1rem 1rem;
+    padding: 0 1.5rem 1rem 0;
+    opacity: 0.5;
 }
 .about-me{
     display: flex;
+}
+.lion{
+    color: red;
 }
