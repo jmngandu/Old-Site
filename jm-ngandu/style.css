@@ -183,17 +183,26 @@ label{
     background: black;
     cursor: wait;
 }
-.imagy{
+.have-fun{
     display: flex;
-   
-   flex-wrap: wrap;
+    background-color: #EA8859;
 }
-#car{
-    float:left;
+.mukuvi{
+   width:33.4%;
 }
-.imd {
-    width: 50%;
+.fun-fact{
+    background-color: #EA8859;
 }
-.texie{
-    float: right;
+.details{
+    padding: 10px;
+    text-align: left;
+}
+#muzic{
+    color: white;
+    text-decoration: none;
+    cursor:wait;
+}
+#muzic:hover{
+    color: green;
+    border-radius: 10px;
 }
