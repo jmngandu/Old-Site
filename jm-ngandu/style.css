@@ -40,7 +40,7 @@ h1.logo {
     text-shadow: 2px 2px #6D909C;
 }
 .menu {
-    height: 500px;
+    height: 550px;
     width: 100%;
     z-index: 2;
     display: flex;
@@ -95,6 +95,10 @@ main{
 .what-ilike:hover{
     transform: translate(10px,5px);
 }
+.what-ilike b:hover, i:hover{
+    background-color: white;
+    color: black;
+}
 .jmngandu{
    
     width: 12rem;
@@ -107,6 +111,15 @@ main{
 }
 .lion{
     color: red;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-decoration:overline;
+}
+.lion:hover{
+    transform: rotate(5deg);
+    color: #EA8859;
+    text-decoration:underline ;
 }
 .the-form{
     background-color: #EA8859;
@@ -138,6 +151,7 @@ label{
     padding: 10px 20px;
     border-radius: 10px;
     margin: 5px 20px;
+    cursor: pointer;
 }
 #submit:hover{
     background-color: black;
@@ -167,4 +181,13 @@ label{
 #media-s a:hover{
     color:white;
     background: black;
+    cursor: wait;
+}
+.imagy{
+    display: flex;
+   flex-basis: 50%;
+    flex-wrap: wrap;
+}
+#car{
+    float:left;
 }
