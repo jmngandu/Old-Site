@@ -206,3 +206,14 @@ label{
     color: green;
     border-radius: 10px;
 }
+#quotee{
+  display: flex;
+  margin: 10px;
+}
+#quotee > img{
+    border-radius: 50px;
+    margin: 10px;
+}
+#quotee >b{
+    margin-top: 80px;
+}
