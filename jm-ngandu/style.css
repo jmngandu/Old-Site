@@ -26,6 +26,10 @@ li > a{
     color: ghostwhite;
     font-size: 20px;
 }
+li >a:hover{
+    text-decoration: overline;
+    color: yellow;
+}
 
 h1.logo {
     margin: auto 0;
@@ -78,4 +82,18 @@ main{
     color: white;
 }.copyright{
     text-align: center;
+}
+.about-pic{
+    background-color: aquamarine;
+}.what-ilike{
+    background-color: cornflowerblue;
+}
+.jmngandu{
+    border-radius: 40px;
+    width: 12rem;
+    float: left;
+    padding: 0 1.5rem 1rem 1rem;
+}
+.about-me{
+    display: flex;
 }
