@@ -172,7 +172,6 @@ label{
     color:white;
 }
 .medias {
-    border: white solid 1px;
     display: flex;
     gap:1rem;
     flex-flow: wrap;
