@@ -11,6 +11,20 @@ body {
     margin-top: 40px;
     border-radius: 10px;
 }
+@media (min-aspect-ratio:16/9) {
+    .wrapper{
+     width: 100%;
+     height: auto;
+    }
+    
+}
+@media (min-aspect-ratio:16/9) {
+    .wrapper{
+     width: 100%;
+     height: auto;
+    }
+    
+}
 .right-h nav ul{
     display: flex;
     justify-content: flex-end;
