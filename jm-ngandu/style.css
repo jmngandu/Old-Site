@@ -217,3 +217,13 @@ label{
 #quotee >b{
     margin-top: 80px;
 }
+.info-l{
+    padding: 10px 20px;
+}
+.info-l a{
+    text-decoration: none;
+    color: black;
+}
+.info-l a:hover{
+    color: gray;
+}
