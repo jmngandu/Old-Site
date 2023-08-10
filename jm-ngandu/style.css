@@ -12,14 +12,14 @@ body {
     border-radius: 10px;
 }
 @media (min-aspect-ratio:16/9) {
-    .wrapper{
+    .home{
      width: 100%;
      height: auto;
     }
     
 }
 @media (max-aspect-ratio:16/9) {
-    .wrapper{
+    .home{
      width: auto;
      height: 100%;
     }
