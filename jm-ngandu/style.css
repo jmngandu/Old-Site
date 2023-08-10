@@ -20,8 +20,8 @@ body {
 }
 @media (max-aspect-ratio:16/9) {
     .wrapper{
-     width: 100%;
-     height: auto;
+     width: auto;
+     height: 100%;
     }
     
 }
