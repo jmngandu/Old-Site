@@ -13,7 +13,7 @@ body {
 }
 @media (min-aspect-ratio:16/9) {
     .wrapper{
-     width: auto;
+     width: 100%;
      height: auto;
     }
     
@@ -21,7 +21,7 @@ body {
 @media (max-aspect-ratio:16/9) {
     .wrapper{
      width: auto;
-     height: auto;
+     height: 100%;
     }
     
 }
