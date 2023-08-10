@@ -16,13 +16,7 @@ body {
      width: 100%;
      height: auto;
     }
-    
-}
-@media (max-aspect-ratio:16/9) {
-    .home{
-     width: auto;
-     height: 100%;
-    }
+
     
 }
 .right-h nav ul{
