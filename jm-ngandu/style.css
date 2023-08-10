@@ -18,7 +18,7 @@ body {
     }
     
 }
-@media (min-aspect-ratio:16/9) {
+@media (max-aspect-ratio:16/9) {
     .wrapper{
      width: 100%;
      height: auto;
