@@ -11,13 +11,7 @@ body {
     margin-top: 40px;
     border-radius: 10px;
 }
-@media (min-aspect-ratio:16/9) {
-    .home{
-     width: 100%;
-     height: auto;
-    }
 
-    
 }
 .right-h nav ul{
     display: flex;
