@@ -231,12 +231,15 @@ label{
 }
 .spinner{
     border: 5px solid black;
-    width: 90px;
-    height: 90px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     animation: spin 1s infinite ease-in-out;
-    border-left-color: yellow;
-    border-right-color: red;
+    border-left-color: red;
+    border-right-color: green;
+    border-top-color:orange;
+    border-bottom-color: blue;
+    color: white;
 }
 @keyframes spin {
     0%{
