@@ -226,3 +226,24 @@ label{
 .info-l a:hover{
     color: gray;
 }
+.loader{
+    background-color: aqua;
+}
+.spinner{
+    border: 5px solid black;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    animation: spin 1s infinite ease-in-out;
+    border-left-color: yellow;
+    border-right-color: red;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
