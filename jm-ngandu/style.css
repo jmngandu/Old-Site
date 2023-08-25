@@ -15,6 +15,9 @@ body {
     width: 90%;
     margin-top: 40px;
     border-radius: 10px;
+    min-width: 985px;
+    max-width: 1200px;
+    
 }
 .right-h nav ul{
     display: flex;
@@ -62,7 +65,6 @@ h1.logo {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    min-width: 100px;
 }
 .menu-box li a{
     color: black;
@@ -131,6 +133,7 @@ main{
 }
 .my-links{
     background-color:cyan;
+    flex-basis: 50%;
 }
 .contacts{
     display: flex;
@@ -164,7 +167,7 @@ label{
 }
 .social-media{
     background-color: dimgray;
-    flex-basis: 30%;
+    flex-basis: 40%;
     justify-content: center;
 }
 #my-imag{
